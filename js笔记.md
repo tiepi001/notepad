@@ -1,37 +1,37 @@
-### æµè§ˆå™¨ä¸¤å¤§éƒ¨åˆ† 
-1ã€shell ç”¨æˆ·èƒ½æ“ä½œçœ‹åˆ°çš„éƒ¨åˆ†
-2ã€å†…æ ¸éƒ¨é—¨
-ï¼ˆ1ï¼‰ã€æ¸²æŸ“å¼•æ“Žï¼ˆè¯­æ³•è§„åˆ™å’Œæ¸²æŸ“ï¼‰ 
-ï¼ˆ2ï¼‰ã€jså¼•æ“Ž 
-ï¼ˆ3ï¼‰ã€å…¶ä»–æ¨¡å— è¾…åŠ©å¼‚æ­¥ç­‰å…¶ä»–
+### ä¯ÀÀÆ÷Á½´ó²¿·Ö 
+1. shell ÓÃ»§ÄÜ²Ù×÷¿´µ½µÄ²¿·Ö
+2. ÄÚºË²¿ÃÅ
+> £¨1£©¡¢äÖÈ¾ÒýÇæ£¨Óï·¨¹æÔòºÍäÖÈ¾£© 
+£¨2£©¡¢jsÒýÇæ 
+£¨3£©¡¢ÆäËûÄ£¿é ¸¨ÖúÒì²½µÈÆäËû
 
 
-### jsæ˜¯ä¸€ç§è§£é‡Šæ€§è¯­è¨€ç‰¹ç‚¹  
-1ã€è¯»ä¸€è¡Œç¿»è¯‘ä¸€è¡Œ  
-2ã€å•çº¿ç¨‹  ECMAæ ‡å‡†
+### jsÊÇÒ»ÖÖ½âÊÍÐÔÓïÑÔÌØµã  
+1. ¶ÁÒ»ÐÐ·­ÒëÒ»ÐÐ  
+2.µ¥Ïß³Ì  ECMA±ê×¼
 
-> ç¼–è¯‘æ€§è¯­è¨€ c c++  
-ä¼˜ç‚¹ï¼šå¿« 
-ä¸è¶³ï¼šç§»æ¤æ€§ä¸å¥½ï¼ˆä¸è·¨å¹³å°ï¼‰
+> ±àÒëÐÔÓïÑÔ c c++ 
+ÓÅµã£º¿ì 
+²»×ã£ºÒÆÖ²ÐÔ²»ºÃ£¨²»¿çÆ½Ì¨£© 
 
-java --> javac --> ç¼–è¯‘ --> .class -->jvm -- è§£é‡Šæ‰§è¡Œ  è·¨å¹³å°
+java --> javac --> ±àÒë --> .class -->jvm -- ½âÊÍÖ´ÐÐ  ¿çÆ½Ì¨
 
 
-### è§£é‡Šæ€§è¯­è¨€    
+### ½âÊÍÐÔÓïÑÔ    
 > js php python 
-ä¼˜ç‚¹ï¼šè·¨å¹³å° 
-ä¸è¶³ï¼šç¨å¾®æ…¢
+ÓÅµã£º¿çÆ½Ì¨ 
+²»×ã£ºÉÔÎ¢Âý
 
 
-- ç½‘ç«™é¡µé¢ä¸ºå¼‚æ­¥åŠ è½½æ‰§è¡Œæ¨¡å¼
+- ÍøÕ¾Ò³ÃæÎªÒì²½¼ÓÔØÖ´ÐÐÄ£Ê½
 
-### jsä¸‰å¤§éƒ¨åˆ†
-1. ecmascript 
+### jsÈý´ó²¿·Ö
+1. ecmascript
 2. DOM 
 3. BOM
 
 
-### ä¸»æµæµè§ˆå™¨åŠå†…æ ¸
+### Ö÷Á÷ä¯ÀÀÆ÷¼°ÄÚºË
 IE            trident
 Chrome        webkit/blink
 firefox       Gecko
@@ -39,75 +39,75 @@ Opera         presto
 Safari        webkit
 
 
-### å‘½åè§„åˆ™
-1. å˜é‡åå¿…é¡»ä»¥è‹±æ–‡å­—æ¯ã€_ã€$å¼€å¤´
-2. å˜é‡åå¯ä»¥åŒ…æ‹¬è‹±æ–‡å­—æ¯ã€_ã€æ•°å­—
-3. ä¸å¯ä»¥ç”¨ç³»ç»Ÿçš„å…³é”®å­—ã€ä¿ç•™å­—ä½œä¸ºå˜é‡å
+### ÃüÃû¹æÔò
+1. ±äÁ¿Ãû±ØÐëÒÔÓ¢ÎÄ×ÖÄ¸¡¢_¡¢$¿ªÍ·
+2. ±äÁ¿Ãû¿ÉÒÔ°üÀ¨Ó¢ÎÄ×ÖÄ¸¡¢_¡¢Êý×Ö
+3. ²»¿ÉÒÔÓÃÏµÍ³µÄ¹Ø¼ü×Ö¡¢±£Áô×Ö×÷Îª±äÁ¿Ãû
 
 
 
-å€¼ç±»åž‹   é‡ç‚¹ - æ²¡ç†è§£---------
+ÖµÀàÐÍ   ÖØµã - Ã»Àí½â---------
 
-åŽŸå§‹å€¼ å­˜åœ¨æ ˆé‡Œ stack   åŽŸå§‹å€¼ä¸å¯æ”¹å˜
+Ô­Ê¼Öµ ´æÔÚÕ»Àï stack   Ô­Ê¼Öµ²»¿É¸Ä±ä
 Number String Bollean undefined null
-æ ˆå†…å­˜èµ‹å€¼æ˜¯æ‹·è´
+Õ»ÄÚ´æ¸³ÖµÊÇ¿½±´
 
-å¼•ç”¨å€¼ å­˜åœ¨å †é‡Œ heap
+ÒýÓÃÖµ ´æÔÚ¶ÑÀï heap
 array Object function date RegExp
 
 
-èµ‹å€¼çš„é¡ºåº è‡ªå³å‘å·¦ï¼Œ è®¡ç®—çš„é¡ºåº è‡ªå·¦å‘å³
+¸³ÖµµÄË³Ðò ×ÔÓÒÏò×ó£¬ ¼ÆËãµÄË³Ðò ×Ô×óÏòÓÒ
 
 
 
-### è¿ç®—æ“ä½œç¬¦
-â€œ+â€
-1. æ•°å­¦è¿ç®—ã€å­—ç¬¦ä¸²è¿žæŽ¥
-2. ä»»ä½•æ•°æ®ç±»åž‹åŠ å­—ç¬¦ä¸²éƒ½ç­‰äºŽå­—ç¬¦ä¸²
+### ÔËËã²Ù×÷·û
+¡°+¡±
+1. ÊýÑ§ÔËËã¡¢×Ö·û´®Á¬½Ó
+2. ÈÎºÎÊý¾ÝÀàÐÍ¼Ó×Ö·û´®¶¼µÈÓÚ×Ö·û´®
 
-> â€œ-â€  â€œ*â€  â€œ/â€  â€œ%â€  â€œ=â€  â€œ()â€ 
+> ¡°-¡±  ¡°*¡±  ¡°/¡±  ¡°%¡±  ¡°=¡±  ¡°()¡±
 
-ä¼˜å…ˆçº§  â€œ=â€  æœ€å¼±  â€œ()â€ä¼˜å…ˆçº§æœ€é«˜ 
+ÓÅÏÈ¼¶  ¡°=¡±  ×îÈõ  ¡°()¡±ÓÅÏÈ¼¶×î¸ß
 
-â€œ++â€  â€œ--â€  â€œ+=â€  â€œ-=â€  â€œ/=â€  â€œ*=â€  â€œ5=â€ 
- 
- 
-a++  å…ˆè¿è¡Œa  åŽ++ 
- 
-++a  å…ˆ++  å†è¿è¡Œa
+¡°++¡±  ¡°--¡±  ¡°+=¡±  ¡°-=¡±  ¡°/=¡±  ¡°*=¡±  ¡°5=¡±
 
 
+a++  ÏÈÔËÐÐa  ºó++
 
-3. é€»è¾‘è¿ç®—ç¬¦   &&ä¸Ž   ||æˆ–   ï¼éž    ä¸Žè¿ç®—ç¬¦ç¢°åˆ°å‡å°±åœ  æˆ–è¿ç®—ç¬¦ç¢°åˆ°çœŸå°±åœ
-
-
-- &&è¿ç®—ç¬¦
-
-> å…ˆçœ‹ç¬¬ä¸€è¡¨è¾¾å¼è½¬æ¢æˆå¸ƒå°”å€¼çš„ç»“æžœï¼Œå¦‚æžœç»“æžœä¸ºçœŸï¼Œä»–ä¼šçœ‹ç¬¬äºŒä¸ªè¡¨è¾¾å¼è½¬æ¢æˆ
-å¸ƒå°”å€¼çš„ç»“æžœï¼Œç„¶åŽå¦‚æžœåªæœ‰ä¸¤ä¸ªè¡¨è¾¾å¼çš„è¯ï¼Œåªçœ‹çœ‹åˆ°ç¬¬äºŒä¸ªè¡¨è¾¾å¼ï¼Œå°±å¯ä»¥è¿”
-å›žè¯¥è¡¨è¾¾å¼çš„å€¼äº†
-å¦‚æžœç¬¬ä¸€ä¸ªè¡¨è¾¾å¼è½¬æ¢æˆå¸ƒå°”å€¼çš„ç»“æžœä¸ºå‡ï¼Œåˆ™è¿”å›žç¬¬ä¸€ä¸ªè¡¨è¾¾å¼çš„å€¼
-
-var = 0 && 1  è¿”å›ž0
-var = 1 && 2  è¿”å›ž2
+++a  ÏÈ++  ÔÙÔËÐÐa
 
 
-- ï¼éž    è½¬æ¢æˆå¸ƒå°”å€¼å†å–å
+
+### Âß¼­ÔËËã·û   &&Óë   ||»ò   £¡·Ç    ÓëÔËËã·ûÅöµ½¼Ù¾ÍÍ£  »òÔËËã·ûÅöµ½Õæ¾ÍÍ£
 
 
-> undefined, null, NaN, "", 0ï¼Œ false   ==>  è½¬æ¢æˆå¸ƒå°”å€¼ä¸ºfalse 
- 
- 
-whileå¾ªçŽ¯æ˜¯ for å¾ªçŽ¯çš„ç®€åŒ–ç‰ˆ
+- &&ÔËËã·û
+
+> ÏÈ¿´µÚÒ»±í´ïÊ½×ª»»³É²¼¶ûÖµµÄ½á¹û£¬Èç¹û½á¹ûÎªÕæ£¬Ëû»á¿´µÚ¶þ¸ö±í´ïÊ½×ª»»³É
+²¼¶ûÖµµÄ½á¹û£¬È»ºóÈç¹ûÖ»ÓÐÁ½¸ö±í´ïÊ½µÄ»°£¬Ö»¿´¿´µ½µÚ¶þ¸ö±í´ïÊ½£¬¾Í¿ÉÒÔ·µ
+»Ø¸Ã±í´ïÊ½µÄÖµÁË
+Èç¹ûµÚÒ»¸ö±í´ïÊ½×ª»»³É²¼¶ûÖµµÄ½á¹ûÎª¼Ù£¬Ôò·µ»ØµÚÒ»¸ö±í´ïÊ½µÄÖµ
+
+var = 0 && 1  ·µ»Ø0
+var = 1 && 2  ·µ»Ø2
+
+
+- £¡·Ç    ×ª»»³É²¼¶ûÖµÔÙÈ¡·´
+
+
+> undefined, null, NaN, "", 0£¬ false   ==>  ×ª»»³É²¼¶ûÖµÎªfalse
+
+
+whileÑ­»·ÊÇ for Ñ­»·µÄ¼ò»¯°æ
 
 
 
 -------
 
-- æ¡ä»¶è¡¥å……è¯­å¥  switch case         break        continue
+- Ìõ¼þ²¹³äÓï¾ä  switch case         break        continue
 
 
-switch caseè¯­å¥
+switch caseÓï¾ä
 ```
 var n = parseInt(window.prompt('input'));
 
@@ -122,7 +122,7 @@ var n = parseInt(window.prompt('input'));
     }
 ```
 
-breakè¯­å¥    breakå¿…é¡»å†™åˆ°å¾ªçŽ¯é‡Œé¢
+breakÓï¾ä    break±ØÐëÐ´µ½Ñ­»·ÀïÃæ
 ```
 var i = 0;
 while(1){
@@ -133,14 +133,14 @@ while(1){
   }
 }
 ```
-continueè¯­å¥  ç»ˆæ­¢æœ¬æ¬¡å¾ªçŽ¯è¿›è¡Œä¸‹ä¸€æ¬¡å¾ªçŽ¯
+continueÓï¾ä  ÖÕÖ¹±¾´ÎÑ­»·½øÐÐÏÂÒ»´ÎÑ­»·
 
 
 
-å¼•ç”¨å€¼
+ÒýÓÃÖµ
 
 
-å¯¹è±¡
+¶ÔÏó
 
 var deng = {
         laseName:"Deng",
@@ -151,86 +151,86 @@ var deng = {
 
 
 
-### ç¼–ç¨‹å½¢å¼çš„åŒºåˆ«
+### ±à³ÌÐÎÊ½µÄÇø±ð
 
 
-1. é¢å‘è¿‡ç¨‹
+1. ÃæÏò¹ý³Ì
 
-2. é¢å‘å¯¹è±¡
+2. ÃæÏò¶ÔÏó
 
-> JavaScript  æ—¢é¢å‘è¿‡ç¨‹ åˆé¢å‘å¯¹è±¡
+> JavaScript  ¼ÈÃæÏò¹ý³Ì ÓÖÃæÏò¶ÔÏó
 
-- type of  å¯è¿”å›žå…­ä¸ªå€¼
+- type of  ¿É·µ»ØÁù¸öÖµ
 
 > number string Boolean object undefined  function
 
 
-æ˜¾ç¤ºç±»åž‹è½¬æ¢
+ÏÔÊ¾ÀàÐÍ×ª»»
 
 var demo = true;
-var num = Number(demo);è½¬æ¢æˆæ•°å­—
+var num = Number(demo);×ª»»³ÉÊý×Ö
 console.log(typeof((num) + ":" + num));
 
 
 
 
 
-### å‡½æ•°
+### º¯Êý
 
-- å®šä¹‰  åç§°é¦–å­—æ¯å°å†™ åŽé¢è¯é¦–å­—æ¯å¤§å†™
+- ¶¨Òå  Ãû³ÆÊ××ÖÄ¸Ð¡Ð´ ºóÃæ´ÊÊ××ÖÄ¸´óÐ´
 
-- å‡½æ•°å£°æ˜Ž
+- º¯ÊýÉùÃ÷
 ```
    function theFirstName(){
        
    }
 ```
-1. å‘½åå‡½æ•°è¡¨è¾¾å¼
+1.ÃüÃûº¯Êý±í´ïÊ½
 ```
 var test = function abc(){  
-  //testçš„å‡½æ•°åä¸ºabc
+  //testµÄº¯ÊýÃûÎªabc
 }
 ```
-2. åŒ¿åå‡½æ•°è¡¨è¾¾å¼ --- å‡½æ•°è¡¨è¾¾å¼
+2.ÄäÃûº¯Êý±í´ïÊ½ --- º¯Êý±í´ïÊ½
 ```
 var demo= function(){  
-  //demoçš„å‡½æ•°åä¸ºdemo
+  //demoµÄº¯ÊýÃûÎªdemo
 
 }
 ```
 
 
 
-### ç»„æˆå½¢å¼
+### ×é³ÉÐÎÊ½
 
-1. å‡½æ•°åç§°
-2. å‚æ•°
+1.º¯ÊýÃû³Æ
+2.²ÎÊý
 
 ```
      function test(a,b){  
-         //testä¸ºå‡½æ•°å  
-           a,bä¸ºå‚æ•°  ç›¸å½“äºŽå®šä¹‰äº†a bå˜é‡
+         //testÎªº¯ÊýÃû  
+           a,bÎª²ÎÊý  Ïàµ±ÓÚ¶¨ÒåÁËa b±äÁ¿
      }
 
 
-     //å½¢å¼å‚æ•° --- å½¢å‚
+     //ÐÎÊ½²ÎÊý --- ÐÎ²Î
      function sum(a,b){
         var c = a + b;
         document.write(c);
      }
-     //å®žé™…å‚æ•° --- å®žå‚
+     //Êµ¼Ê²ÎÊý --- Êµ²Î
      sum(1,2)
 
-     // å½¢å‚ å’Œ å®žå‚æ•°é‡æ²¡æœ‰é™åˆ¶
+     // ÐÎ²Î ºÍ Êµ²ÎÊýÁ¿Ã»ÓÐÏÞÖÆ
 
-     sum.length         ä»£è¡¨å½¢å‚é•¿åº¦
-     arguments.length   ä»£è¡¨å®žå‚é•¿åº¦
+     sum.length         ´ú±íÐÎ²Î³¤¶È
+     arguments.length   ´ú±íÊµ²Î³¤¶È
 ```
 
-### é€’å½’
-> ç¼ºç‚¹ï¼šé€’å½’å¤„ç†é€Ÿåº¦æ…¢   ä¼˜ç‚¹ï¼šå‡å°‘å·¥ä½œé‡
+### µÝ¹é
+> È±µã£ºµÝ¹é´¦ÀíËÙ¶ÈÂý   ÓÅµã£º¼õÉÙ¹¤×÷Á¿
 
-- nçš„é˜¶ä¹˜ nï¼
+- nµÄ½×³Ë n£¡
 
 ```
   function mul(n){
@@ -242,32 +242,32 @@ var demo= function(){
 ```
 
 
-### é—­åŒ…
+### ±Õ°ü
 
 
 
-- å‡½æ•°å£°æ˜Žæ•´ä½“æå‡
-- å˜é‡ å£°æ˜Žæå‡
+- º¯ÊýÉùÃ÷ÕûÌåÌáÉý
+- ±äÁ¿ ÉùÃ÷ÌáÉý
 
-#### é¢„ç¼–è¯‘å‰å¥
-1. imply globalæš—ç¤ºå…¨å±€å˜é‡ï¼šå³ä»»ä½•å˜é‡ï¼Œå¦‚æžœå˜é‡æœªç»å£°æ˜Žå°±èµ‹å€¼ï¼Œæ­¤å˜é‡å°±ä¸ºå…¨å±€å¯¹è±¡æ‰€æœ‰`
+#### Ô¤±àÒëÇ°×à
+1. imply global°µÊ¾È«¾Ö±äÁ¿£º¼´ÈÎºÎ±äÁ¿£¬Èç¹û±äÁ¿Î´¾­ÉùÃ÷¾Í¸³Öµ£¬´Ë±äÁ¿¾ÍÎªÈ«¾Ö¶ÔÏóËùÓÐ`
 a = 10
 `
-ç›¸å½“äºŽ
+Ïàµ±ÓÚ
 `
 window.a = 10
 `
 
-2. ä¸€åˆ‡å£°æ˜Žçš„å…¨å±€å˜é‡ï¼Œå…¨æ˜¯windowçš„å±žæ€§
+2. Ò»ÇÐÉùÃ÷µÄÈ«¾Ö±äÁ¿£¬È«ÊÇwindowµÄÊôÐÔ
 `
 var a = 123;
 `
-ç­‰åŒäºŽ
+µÈÍ¬ÓÚ
 `
 window.a = 123
 `
 
-### é¢„ç¼–è¯‘
+### Ô¤±àÒë
 
 function fn(a){
   console.log(a);
@@ -276,11 +276,11 @@ function fn(a){
   console.log(a);
 }
 
-> é¢„ç¼–è¯‘å‘ç”Ÿåœ¨å‡½æ•°æ‰§è¡Œçš„å‰ä¸€åˆ»
+> Ô¤±àÒë·¢ÉúÔÚº¯ÊýÖ´ÐÐµÄÇ°Ò»¿Ì
 
-> å››éƒ¨æ›²ï¼š
-  1.åˆ›å»ºAOå¯¹è±¡ï¼ˆæ‰§è¡ŒæœŸä¸Šä¸‹æ–‡ï¼‰
-  2.æ‰¾å½¢å‚å’Œå˜é‡å£°æ˜Ž
+> ËÄ²¿Çú£º
+  1.´´½¨AO¶ÔÏó£¨Ö´ÐÐÆÚÉÏÏÂÎÄ£©
+  2.ÕÒÐÎ²ÎºÍ±äÁ¿ÉùÃ÷
 
 
 
