@@ -195,11 +195,11 @@ canvas2imgÄ¬ÈÏ±£´æÍ¼Æ¬µÄ¸ñÊ½Îªpng£¬¶øÔÚ°²×¿°æÎ¢ĞÅÖĞËùÉú³ÉµÄÍ¼Æ¬¾¡¹ÜÄÜ³¤°´»½³ö±£´
 ÔÚÍ¼Æ¬µÄ×ª»¯Ç°£¬±ØĞëÍ£Ö¹»òÕßÉ¾³ı¶¯Ğ§ºó²ÅÄÜÕıÈ·äÖÈ¾³öÍ¼Æ¬£¬·ñÔòÉú³ÉµÄÍ¼Æ¬ÊÇÆÆÁÑµÄ¡£
 
 ## ²Î¿¼ÎÄÏ×
-[CanvasRenderingContext2D.drawImage()](https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/drawImage)
-[Add dpi/scale options for custom resolution](https://github.com/niklasvh/html2canvas/pull/1087)
-[HTMLCanvasElement.toDataURL()](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCanvasElement/toDataURL)
-[html5 canvasÔÚ¸ß±¶ÆÁÏÂ±äÄ£ºıµÄ´¦Àí°ì·¨](https://yq.aliyun.com/ziliao/4416)
-[CanvasÊµÏÖ±£´æÍ¼Æ¬µ½±¾µØ](http://blog.csdn.net/sophia1010/article/details/52945542)
+[CanvasRenderingContext2D.drawImage()](https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/drawImage) <br/>
+[Add dpi/scale options for custom resolution](https://github.com/niklasvh/html2canvas/pull/1087) <br/>
+[HTMLCanvasElement.toDataURL()](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCanvasElement/toDataURL) <br/>
+[html5 canvasÔÚ¸ß±¶ÆÁÏÂ±äÄ£ºıµÄ´¦Àí°ì·¨](https://yq.aliyun.com/ziliao/4416) <br/>
+[CanvasÊµÏÖ±£´æÍ¼Æ¬µ½±¾µØ](http://blog.csdn.net/sophia1010/article/details/52945542) <br/>
 [html2canvas½ØÍ¼ÈçºÎ½â¾ö¿çÓòµÄÎÊÌâ](https://yq.aliyun.com/wenzhang/show_27647)
 
 
