@@ -1,6 +1,7 @@
 # 解决audio在html5移动端不能自动播放、循环播放问题
 
-> ## 总结
+
+## 总结
 
 1.大部分新版浏览器禁用了audio自动播放功能  需要添加监听touchstart事件触发audio播放
 
@@ -19,6 +20,8 @@ play()播放
 pause()暂停
 load()重新加载
 
+
+## 代码
 
 ```
 <div id="music">
