@@ -1,3 +1,5 @@
+# 解决audio在html5移动端不能自动播放、循环播放问题
+
 
 ```
 <div id="music">
@@ -51,7 +53,7 @@
             document.addEventListener('touchstart', function () {
                 audio.play();
             }, {once: true});
-//            引入微信API接口
+//      引入微信API接口
             document.addEventListener("WeixinJSBridgeReady", function () {
                 audio.play();
             }, false);
@@ -86,13 +88,16 @@
 ## 总结
 
 1.大部分新版浏览器禁用了audio自动播放功能  需要添加监听touchstart事件触发audio播放
+
 2.引入微信API接口
+
 3.部分移动端浏览器无法循环播放 使用如下脚本
+
 ```
 audio.onended = function () {
-            audio.load();
-            audio.play();
-        }
+       audio.load();
+       audio.play();
+   }
 ```
 4.js控制媒体
 play()播放
