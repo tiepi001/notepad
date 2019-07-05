@@ -1,4 +1,23 @@
-# ½â¾öaudioÔÚhtml5ÒÆ¶¯¶Ë²»ÄÜ×Ô¶¯²¥·Å¡¢Ñ­»·²¥·ÅÎÊÌâ
+# è§£å†³audioåœ¨html5ç§»åŠ¨ç«¯ä¸èƒ½è‡ªåŠ¨æ’­æ”¾ã€å¾ªç¯æ’­æ”¾é—®é¢˜
+
+> ## æ€»ç»“
+
+1.å¤§éƒ¨åˆ†æ–°ç‰ˆæµè§ˆå™¨ç¦ç”¨äº†audioè‡ªåŠ¨æ’­æ”¾åŠŸèƒ½  éœ€è¦æ·»åŠ ç›‘å¬touchstartäº‹ä»¶è§¦å‘audioæ’­æ”¾
+
+2.å¼•å…¥å¾®ä¿¡APIæ¥å£
+
+3.éƒ¨åˆ†ç§»åŠ¨ç«¯æµè§ˆå™¨æ— æ³•å¾ªç¯æ’­æ”¾ ä½¿ç”¨å¦‚ä¸‹è„šæœ¬
+
+```
+audio.onended = function () {
+       audio.load();
+       audio.play();
+   }
+```
+4.jsæ§åˆ¶åª’ä½“
+play()æ’­æ”¾
+pause()æš‚åœ
+load()é‡æ–°åŠ è½½
 
 
 ```
@@ -47,13 +66,13 @@
         var $forbid = $music.find('#audioBox');
         var audio = document.getElementById('audio');
 
-//      ´ó¶àĞÂ°æ±¾ä¯ÀÀÆ÷²»Ö§³Öaudio×Ô¶¯²¥·Å ÔÚ´ËÔö¼ÓaddEventListener½»»¥ÊÂ¼ş´¥·¢²¥·Å
-//      touchstartÖØ¸´Ö´ĞĞÓ°ÏìÒôÀÖ²¥·Å  {once: true}¿ØÖÆÖ»Ö´ĞĞÒ»´Î
+//      å¤§å¤šæ–°ç‰ˆæœ¬æµè§ˆå™¨ä¸æ”¯æŒaudioè‡ªåŠ¨æ’­æ”¾ åœ¨æ­¤å¢åŠ addEventListeneräº¤äº’äº‹ä»¶è§¦å‘æ’­æ”¾
+//      touchstarté‡å¤æ‰§è¡Œå½±å“éŸ³ä¹æ’­æ”¾  {once: true}æ§åˆ¶åªæ‰§è¡Œä¸€æ¬¡
         function audioAutoPlay(audio) {
             document.addEventListener('touchstart', function () {
                 audio.play();
             }, {once: true});
-//      ÒıÈëÎ¢ĞÅAPI½Ó¿Ú
+//      å¼•å…¥å¾®ä¿¡APIæ¥å£
             document.addEventListener("WeixinJSBridgeReady", function () {
                 audio.play();
             }, false);
@@ -75,7 +94,7 @@
             }
             audio.pause();
         });
-//      ½â¾öiOS²»ÄÜÑ­»·²¥·ÅÎÊÌâ
+//      è§£å†³iOSä¸èƒ½å¾ªç¯æ’­æ”¾é—®é¢˜
         audio.onended = function () {
             audio.load();
             audio.play();
@@ -85,21 +104,3 @@
 
 ```
 
-## ×Ü½á
-
-1.´ó²¿·ÖĞÂ°æä¯ÀÀÆ÷½ûÓÃÁËaudio×Ô¶¯²¥·Å¹¦ÄÜ  ĞèÒªÌí¼Ó¼àÌıtouchstartÊÂ¼ş´¥·¢audio²¥·Å
-
-2.ÒıÈëÎ¢ĞÅAPI½Ó¿Ú
-
-3.²¿·ÖÒÆ¶¯¶Ëä¯ÀÀÆ÷ÎŞ·¨Ñ­»·²¥·Å Ê¹ÓÃÈçÏÂ½Å±¾
-
-```
-audio.onended = function () {
-       audio.load();
-       audio.play();
-   }
-```
-4.js¿ØÖÆÃ½Ìå
-play()²¥·Å
-pause()ÔİÍ£
-load()ÖØĞÂ¼ÓÔØ
