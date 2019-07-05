@@ -42,20 +42,20 @@ load()重新加载
         background-size: 100% 100%;position: absolute; left: 3rem; z-index: 99;}
     @-webkit-keyframes rotation {
         0%{transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg);}
-        18%{transform: rotate(60deg); -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -o-transform:                     rotate(60deg);}
-        50%{transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform:                 rotate(180deg);}
-        82%{transform: rotate(300deg); -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); -o-transform:                 rotate(300deg);}
-        100%{transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform:                 rotate(360deg);}
+        18%{transform: rotate(60deg); -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -o-transform: rotate(60deg);}
+        50%{transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg);}
+        82%{transform: rotate(300deg); -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); -o-transform: rotate(300deg);}
+        100%{transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg);}
     }
     @keyframes rotation {
         0%{transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg);}
-        20%{transform: rotate(60deg); -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -o-transform:                     rotate(60deg);}
-        50%{transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform:                 rotate(180deg);}
-        80%{transform: rotate(300deg); -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); -o-transform:                 rotate(300deg);}
-        100%{transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform:                 rotate(360deg);}
+        20%{transform: rotate(60deg); -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -o-transform: rotate(60deg);}
+        50%{transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg);}
+        80%{transform: rotate(300deg); -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); -o-transform: rotate(300deg);}
+        100%{transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg);}
     }
     .rotation {
-        transform: rotate(360deg);-webkit-transform: rotate(360deg); -moz-transform: rotate(360deg);-o-transform:                       rotate(360deg);
+        transform: rotate(360deg);-webkit-transform: rotate(360deg); -moz-transform: rotate(360deg);-o-transform: rotate(360deg);
         animation: rotation 3s linear infinite; -moz-animation: rotation 3s linear infinite;
         -webkit-animation: rotation 3s linear infinite; -o-animation: rotation 3s linear infinite; }
 </style>
