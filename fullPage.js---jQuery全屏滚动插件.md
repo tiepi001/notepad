@@ -1,31 +1,31 @@
-# jQueryÈ«ÆÁ¹ö¶¯²å¼şfullPage.js
+# jQueryå…¨å±æ»šåŠ¨æ’ä»¶fullPage.js
 
-## Ê¹ÓÃËµÃ÷
+## ä½¿ç”¨è¯´æ˜
 
-### 1¡¢°üº¬ÎÄ¼ş
+### 1ã€åŒ…å«æ–‡ä»¶
 
-Õâ¸ö²å¼şÒÀÀµÓÚjQuery£¬ËùÒÔÄã»¹ĞèÒªÏÂÔØjQuery£¬²¢ÇÒÔÚFullpage²å¼şÖ®Ç°ÒıÈë¡£
+è¿™ä¸ªæ’ä»¶ä¾èµ–äºjQueryï¼Œæ‰€ä»¥ä½ è¿˜éœ€è¦ä¸‹è½½jQueryï¼Œå¹¶ä¸”åœ¨Fullpageæ’ä»¶ä¹‹å‰å¼•å…¥ã€‚
 ```
 <link rel="stylesheet" type="text/css" href="/fullpage/jquery.fullPage.css" />
 <script src="/fullpage/jquery.min.js"></script>
 <script type="text/javascript" src="/fullpage/jquery.fullPage.js"></script>
 ```
 
-Èç¹ûÄãĞèÒª×Ô¶¨ÒåÒ³Ãæ¹ö¶¯µÄĞ§¹û£¬ÄãĞèÒªÒıÈëjquery.easings.min.jsÎÄ¼ş¡£ÓĞ¶àÖÖ·½·¨¿ÉÒÔÊµÏÖÒ³ÃæĞ§¹û£¬ÎÄ×Öºó°ë²¿ÃÅÓĞ½éÉÜ
+å¦‚æœä½ éœ€è¦è‡ªå®šä¹‰é¡µé¢æ»šåŠ¨çš„æ•ˆæœï¼Œä½ éœ€è¦å¼•å…¥jquery.easings.min.jsæ–‡ä»¶ã€‚æœ‰å¤šç§æ–¹æ³•å¯ä»¥å®ç°é¡µé¢æ•ˆæœï¼Œæ–‡å­—ååŠéƒ¨é—¨æœ‰ä»‹ç»
 
 ```
 <script src="/fullpage/jquery.easings.min.js"></script>
 ```
 
-¶ÔÓÚÄÚÈİ±È½Ï¶àµÄÒ³Ãæ£¬¿ÉÒÔÉèÖÃÓÒ²àµÄ¹ö¶¯Ìõ£¬µ«ÊÇÄ¬ÈÏÇé¿öÏÂÎŞ·¨¹ö¶¯£¬ÄãĞèÒªjquery.slimscroll.min.jsÎÄ¼şÀ´×Ô¶¨Òå»¬Ìõ¹ö¶¯Ğ§¹û¡£
+å¯¹äºå†…å®¹æ¯”è¾ƒå¤šçš„é¡µé¢ï¼Œå¯ä»¥è®¾ç½®å³ä¾§çš„æ»šåŠ¨æ¡ï¼Œä½†æ˜¯é»˜è®¤æƒ…å†µä¸‹æ— æ³•æ»šåŠ¨ï¼Œä½ éœ€è¦jquery.slimscroll.min.jsæ–‡ä»¶æ¥è‡ªå®šä¹‰æ»‘æ¡æ»šåŠ¨æ•ˆæœã€‚
 
 ```
 <script type="text/javascript" src="/fullpage/jquery.slimscroll.min.js"></script>
 ```
 
-### 2¡¢ÒªÇóHTML½á¹¹
+### 2ã€è¦æ±‚HTMLç»“æ„
 
-Ã¿¸ö´úÂë¶Î¶¨ÒåÎª°üº¬sectionÀàµÄÔªËØ¡£ µÚÒ»¸ö´úÂë¶Î×÷ÎªÖ÷Ò³£¬ÊÇÄ¬ÈÏ¼¤»î´úÂë¡£ ´úÂë¶ÎÓ¦½øĞĞ·â×°£¨¼´<div id="fullpage"> £©¡£ ·â×°²»ÄÜÊÇbodyÔªËØ¡£
+æ¯ä¸ªä»£ç æ®µå®šä¹‰ä¸ºåŒ…å«sectionç±»çš„å…ƒç´ ã€‚ ç¬¬ä¸€ä¸ªä»£ç æ®µä½œä¸ºä¸»é¡µï¼Œæ˜¯é»˜è®¤æ¿€æ´»ä»£ç ã€‚ ä»£ç æ®µåº”è¿›è¡Œå°è£…ï¼ˆå³<div id="fullpage"> ï¼‰ã€‚ å°è£…ä¸èƒ½æ˜¯bodyå…ƒç´ ã€‚
 
 ```
 <div id="fullpage'">
@@ -36,13 +36,13 @@
 </div>
 ```
 
-¼ÙÈçÄãĞèÒªÈÃÄ³Ò»¸ösection×÷ÎªÊ×Ò³µÄµÚÒ»ÆÁÕ¹Ê¾£¬ÄãÖ»ĞèÒª¸øÕâ¸ösectionÌí¼ÓÒ»¸öactiveµÄÀà£¬Fullpage»á×Ô¶¯ÓÅÏÈÕ¹Ê¾Õâ¸öÆÁÄ»£¬ÀıÈç¶¨ÒåÏÂÃæµÄ´úÂë£º
+å‡å¦‚ä½ éœ€è¦è®©æŸä¸€ä¸ªsectionä½œä¸ºé¦–é¡µçš„ç¬¬ä¸€å±å±•ç¤ºï¼Œä½ åªéœ€è¦ç»™è¿™ä¸ªsectionæ·»åŠ ä¸€ä¸ªactiveçš„ç±»ï¼ŒFullpageä¼šè‡ªåŠ¨ä¼˜å…ˆå±•ç¤ºè¿™ä¸ªå±å¹•ï¼Œä¾‹å¦‚å®šä¹‰ä¸‹é¢çš„ä»£ç ï¼š
 
 ```
 <div class="section active">Some section</div>
 ```
 
-Fullpage×Ô´ø×óÓÒ»¬¶¯µÄ»ÃµÆÆ¬£¬Ö»ĞèÒªÔÚsectionÖĞÌí¼ÓDIVÔªËØ£¬²¢ÇÒ¸øDIVÔªËØÌí¼ÓslideÀà£¬FUllpage»á×Ô¶¯Éú³É»ÃµÆÆ¬ÌØĞ§£¬ÀıÈçÏÂÃæµÄ´úÂë£º
+Fullpageè‡ªå¸¦å·¦å³æ»‘åŠ¨çš„å¹»ç¯ç‰‡ï¼Œåªéœ€è¦åœ¨sectionä¸­æ·»åŠ DIVå…ƒç´ ï¼Œå¹¶ä¸”ç»™DIVå…ƒç´ æ·»åŠ slideç±»ï¼ŒFUllpageä¼šè‡ªåŠ¨ç”Ÿæˆå¹»ç¯ç‰‡ç‰¹æ•ˆï¼Œä¾‹å¦‚ä¸‹é¢çš„ä»£ç ï¼š
 
 ```
 <div class="section">
@@ -53,9 +53,9 @@ Fullpage×Ô´ø×óÓÒ»¬¶¯µÄ»ÃµÆÆ¬£¬Ö»ĞèÒªÔÚsectionÖĞÌí¼ÓDIVÔªËØ£¬²¢ÇÒ¸øDIVÔªËØÌí¼Ósli
 </div>
 ```
 
-### 3¡¢³õÊ¼»¯Fullpage
+### 3ã€åˆå§‹åŒ–Fullpage
 
-Ê¹ÓÃjQueryµÄÎÄµµ¼ÓÔØÍê±ÏÒÔºóÖ´ĞĞº¯Êı£¬³õÊ¼»¯Fullpage²å¼ş¡£
+ä½¿ç”¨jQueryçš„æ–‡æ¡£åŠ è½½å®Œæ¯•ä»¥åæ‰§è¡Œå‡½æ•°ï¼Œåˆå§‹åŒ–Fullpageæ’ä»¶ã€‚
 
 ```
 $(document).ready(function() {
@@ -63,58 +63,58 @@ $('#fullpage').fullpage();
 });
 ```
 
-ËùÓĞµÄÑ¡ÏîÉèÖÃ¸ü¸´ÔÓµÄ³õÊ¼»¯¿ÉÄÜ¿´ÆğÀ´ÏñÕâÑù£º
+æ‰€æœ‰çš„é€‰é¡¹è®¾ç½®æ›´å¤æ‚çš„åˆå§‹åŒ–å¯èƒ½çœ‹èµ·æ¥åƒè¿™æ ·ï¼š
 
 ```
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		//Navigation
-		menu: false,//°ó¶¨²Ëµ¥£¬Éè¶¨µÄÏà¹ØÊôĞÔÓëanchorsµÄÖµ¶ÔÓ¦ºó£¬²Ëµ¥¿ÉÒÔ¿ØÖÆ¹ö¶¯£¬Ä¬ÈÏÎªfalse¡£
-		anchors:['firstPage', 'secondPage'],//anchors¶¨ÒåÃªÁ´½Ó£¬Ä¬ÈÏÎª[]
-		lockAnchors: false,//ÊÇ·ñËø¶¨ÃªÁ´½Ó£¬Ä¬ÈÏÎªfalse,ÉèÎªtrueºóÁ´½ÓµØÖ·²»»á¸Ä±ä
-		navigation: false,//ÊÇ·ñÏÔÊ¾µ¼º½£¬Ä¬ÈÏÎªfalse
-		navigationPosition: 'right',//µ¼º½Ğ¡Ô²µãµÄÎ»ÖÃ
-		navigationTooltips: ['firstSlide', 'secondSlide'],//µ¼º½Ğ¡Ô²µãµÄÌáÊ¾
-		showActiveTooltip: false,//ÊÇ·ñÏÔÊ¾µ±Ç°Ò³ÃæµÄtooltipĞÅÏ¢
-		slidesNavigation: true,//ÊÇ·ñÏÔÊ¾ºáÏò»ÃµÆÆ¬µÄµ¼º½£¬Ä¬ÈÏÎªfalse
-		slidesNavPosition: 'bottom',//ºáÏòµ¼º½µÄÎ»ÖÃ£¬Ä¬ÈÏÎªbottom£¬¿ÉÒÔÉèÖÃÎªtop»òbottom
+		menu: false,//ç»‘å®šèœå•ï¼Œè®¾å®šçš„ç›¸å…³å±æ€§ä¸anchorsçš„å€¼å¯¹åº”åï¼Œèœå•å¯ä»¥æ§åˆ¶æ»šåŠ¨ï¼Œé»˜è®¤ä¸ºfalseã€‚
+		anchors:['firstPage', 'secondPage'],//anchorså®šä¹‰é”šé“¾æ¥ï¼Œé»˜è®¤ä¸º[]
+		lockAnchors: false,//æ˜¯å¦é”å®šé”šé“¾æ¥ï¼Œé»˜è®¤ä¸ºfalse,è®¾ä¸ºtrueåé“¾æ¥åœ°å€ä¸ä¼šæ”¹å˜
+		navigation: false,//æ˜¯å¦æ˜¾ç¤ºå¯¼èˆªï¼Œé»˜è®¤ä¸ºfalse
+		navigationPosition: 'right',//å¯¼èˆªå°åœ†ç‚¹çš„ä½ç½®
+		navigationTooltips: ['firstSlide', 'secondSlide'],//å¯¼èˆªå°åœ†ç‚¹çš„æç¤º
+		showActiveTooltip: false,//æ˜¯å¦æ˜¾ç¤ºå½“å‰é¡µé¢çš„tooltipä¿¡æ¯
+		slidesNavigation: true,//æ˜¯å¦æ˜¾ç¤ºæ¨ªå‘å¹»ç¯ç‰‡çš„å¯¼èˆªï¼Œé»˜è®¤ä¸ºfalse
+		slidesNavPosition: 'bottom',//æ¨ªå‘å¯¼èˆªçš„ä½ç½®ï¼Œé»˜è®¤ä¸ºbottomï¼Œå¯ä»¥è®¾ç½®ä¸ºtopæˆ–bottom
 		 
 		//Scrolling
-		css3: true,//ÊÇ·ñÊ¹ÓÃCSS3 transformsÀ´ÊµÏÖ¹ö¶¯Ğ§¹û£¬Ä¬ÈÏÎªtrue
-		scrollingSpeed: 700,//ÉèÖÃ¹ö¶¯ËÙ¶È£¬µ¥Î»ºÁÃë£¬Ä¬ÈÏ700
-		autoScrolling: true,//ÊÇ·ñÊ¹ÓÃ²å¼şµÄ¹ö¶¯·½Ê½£¬Ä¬ÈÏÎªtrue,ÈôÎªfalseÔò»á³öÏÖä¯ÀÀÆ÷×Ô´ø¹ö¶¯Ìõ
-		fitToSection: true,//ÉèÖÃÊÇ·ñ×ÔÊÊÓ¦Õû¸ö´°¿ÚµÄ¿Õ¼ä£¬Ä¬ÈÏÖµ£ºtrue
-		scrollBar: false,//ÊÇ·ñ°üº¬¹ö¶¯Ìõ£¬Ä¬ÈÏÎªfalse,ÈôÎªtrueä¯ÀÀÆ÷×Ô´ø¹ö¶¯Ìõ³öÏÖ
-		easing: 'easeInOutCubic',//¶¨ÒåÒ³Ãæsection¹ö¶¯µÄ¶¯»­·½Ê½£¬ÈôĞŞ¸Ä´ËÏîĞèÒıÈëjquery.easing²å¼ş
-		easingcss3: 'ease',//¶¨ÒåÒ³Ãæsection¹ö¶¯µÄ¹ı¶ÉĞ§¹û£¬ÈôĞŞ¸Ä´ËÏîĞèÒıÈëµÚÈı·½²å¼ş
-		loopBottom: false,//¹ö¶¯µ½×îµÍ²¿ºóÊÇ·ñÁ¬Ğø¹ö¶¯µ½¶¥²¿£¬Ä¬ÈÏÎªfalse
-		loopTop: false,//¹ö¶¯µ½×î¶¥²¿ºóÊÇ·ñÁ¬Ğø¹ö¶¯µ½µ×²¿£¬Ä¬ÈÏÎªfalse
-		loopHorizontal: true,//ºáÏòslide»ÃµÆÆ¬ÊÇ·ñÑ­»·¹ö¶¯£¬Ä¬ÈÏÎªtrue
-		continuousVertical: false,//ÊÇ·ñÑ­»·¹ö¶¯£¬²»¼æÈİloopTopºÍloopBottomÑ¡Ïî
-		normalScrollElements: '#element1, .element2',//±ÜÃâ×Ô¶¯¹ö¶¯£¬¹ö¶¯Ê±µÄÒ»Ğ©ÔªËØ£¬ÀıÈç°Ù¶ÈµØÍ¼
-		scrollOverflow: false,//ÄÚÈİ³¬¹ıÂúÆÁºóÊÇ·ñÏÔÊ¾¹ö¶¯Ìõ£¬trueÔòÏÔÊ¾¹ö¶¯Ìõ£¬ÈôĞè¹ö¶¯²é¿´ÄÚÈİ»¹ĞèÒªjquery.slimscroll²å¼şµÄÅäºÏ
-		touchSensitivity: 15,//ÔÚÒÆ¶¯Éè±¸ÖĞ»¬¶¯Ò³ÃæµÄÃô¸ĞĞÔ£¬Ä¬ÈÏÎª5×î¸ß100£¬Ô½´óÔ½ÄÑ»¬¶¯
+		css3: true,//æ˜¯å¦ä½¿ç”¨CSS3 transformsæ¥å®ç°æ»šåŠ¨æ•ˆæœï¼Œé»˜è®¤ä¸ºtrue
+		scrollingSpeed: 700,//è®¾ç½®æ»šåŠ¨é€Ÿåº¦ï¼Œå•ä½æ¯«ç§’ï¼Œé»˜è®¤700
+		autoScrolling: true,//æ˜¯å¦ä½¿ç”¨æ’ä»¶çš„æ»šåŠ¨æ–¹å¼ï¼Œé»˜è®¤ä¸ºtrue,è‹¥ä¸ºfalseåˆ™ä¼šå‡ºç°æµè§ˆå™¨è‡ªå¸¦æ»šåŠ¨æ¡
+		fitToSection: true,//è®¾ç½®æ˜¯å¦è‡ªé€‚åº”æ•´ä¸ªçª—å£çš„ç©ºé—´ï¼Œé»˜è®¤å€¼ï¼štrue
+		scrollBar: false,//æ˜¯å¦åŒ…å«æ»šåŠ¨æ¡ï¼Œé»˜è®¤ä¸ºfalse,è‹¥ä¸ºtrueæµè§ˆå™¨è‡ªå¸¦æ»šåŠ¨æ¡å‡ºç°
+		easing: 'easeInOutCubic',//å®šä¹‰é¡µé¢sectionæ»šåŠ¨çš„åŠ¨ç”»æ–¹å¼ï¼Œè‹¥ä¿®æ”¹æ­¤é¡¹éœ€å¼•å…¥jquery.easingæ’ä»¶
+		easingcss3: 'ease',//å®šä¹‰é¡µé¢sectionæ»šåŠ¨çš„è¿‡æ¸¡æ•ˆæœï¼Œè‹¥ä¿®æ”¹æ­¤é¡¹éœ€å¼•å…¥ç¬¬ä¸‰æ–¹æ’ä»¶
+		loopBottom: false,//æ»šåŠ¨åˆ°æœ€ä½éƒ¨åæ˜¯å¦è¿ç»­æ»šåŠ¨åˆ°é¡¶éƒ¨ï¼Œé»˜è®¤ä¸ºfalse
+		loopTop: false,//æ»šåŠ¨åˆ°æœ€é¡¶éƒ¨åæ˜¯å¦è¿ç»­æ»šåŠ¨åˆ°åº•éƒ¨ï¼Œé»˜è®¤ä¸ºfalse
+		loopHorizontal: true,//æ¨ªå‘slideå¹»ç¯ç‰‡æ˜¯å¦å¾ªç¯æ»šåŠ¨ï¼Œé»˜è®¤ä¸ºtrue
+		continuousVertical: false,//æ˜¯å¦å¾ªç¯æ»šåŠ¨ï¼Œä¸å…¼å®¹loopTopå’ŒloopBottomé€‰é¡¹
+		normalScrollElements: '#element1, .element2',//é¿å…è‡ªåŠ¨æ»šåŠ¨ï¼Œæ»šåŠ¨æ—¶çš„ä¸€äº›å…ƒç´ ï¼Œä¾‹å¦‚ç™¾åº¦åœ°å›¾
+		scrollOverflow: false,//å†…å®¹è¶…è¿‡æ»¡å±åæ˜¯å¦æ˜¾ç¤ºæ»šåŠ¨æ¡ï¼Œtrueåˆ™æ˜¾ç¤ºæ»šåŠ¨æ¡ï¼Œè‹¥éœ€æ»šåŠ¨æŸ¥çœ‹å†…å®¹è¿˜éœ€è¦jquery.slimscrollæ’ä»¶çš„é…åˆ
+		touchSensitivity: 15,//åœ¨ç§»åŠ¨è®¾å¤‡ä¸­æ»‘åŠ¨é¡µé¢çš„æ•æ„Ÿæ€§ï¼Œé»˜è®¤ä¸º5æœ€é«˜100ï¼Œè¶Šå¤§è¶Šéš¾æ»‘åŠ¨
 		normalScrollElementTouchThreshold: 5,
 		 
 		//Accessibility
-		keyboardScrolling: true,//ÊÇ·ñ¿ÉÒÔÊ¹ÓÃ¼üÅÌ·½Ïò¼üµ¼º½£¬Ä¬ÈÏÎªtrue
-		animateAnchor: true,//ÃªÁ´½ÓÊÇ·ñ¿ÉÒÔ¿ØÖÆ¹ö¶¯¶¯»­£¬Ä¬ÈÏÎªtrue,ÈôÎªfalseÔòÃªÁ´½Ó¶¨Î»Ê§Ğ§
-		recordHistory: true,//ÊÇ·ñ¼ÇÂ¼ÀúÊ·£¬Ä¬ÈÏÎªtrue,ä¯ÀÀÆ÷µÄÇ°½øºóÍË¿Éµ¼º½¡£ÈôautoScrolling:false,ÄÇÃ´Õâ¸öÊôĞÔ½«±»¹Ø±Õ
+		keyboardScrolling: true,//æ˜¯å¦å¯ä»¥ä½¿ç”¨é”®ç›˜æ–¹å‘é”®å¯¼èˆªï¼Œé»˜è®¤ä¸ºtrue
+		animateAnchor: true,//é”šé“¾æ¥æ˜¯å¦å¯ä»¥æ§åˆ¶æ»šåŠ¨åŠ¨ç”»ï¼Œé»˜è®¤ä¸ºtrue,è‹¥ä¸ºfalseåˆ™é”šé“¾æ¥å®šä½å¤±æ•ˆ
+		recordHistory: true,//æ˜¯å¦è®°å½•å†å²ï¼Œé»˜è®¤ä¸ºtrue,æµè§ˆå™¨çš„å‰è¿›åé€€å¯å¯¼èˆªã€‚è‹¥autoScrolling:false,é‚£ä¹ˆè¿™ä¸ªå±æ€§å°†è¢«å…³é—­
 		 
 		//Design
-		controlArrows: true,//¶¨ÒåÊÇ·ñÍ¨¹ı¼ıÍ·À´¿ØÖÆslide,Ä¬ÈÏtrue
-		verticalCentered: true,//¶¨ÒåÃ¿Ò»Ò³µÄÄÚÈİÊÇ·ñ´¹Ö±¾ÓÖĞ£¬Ä¬ÈÏtrue
-		resize : false,//×ÖÌåÊÇ·ñËæ´°¿ÚËõ·Å¶øËõ·Å£¬Ä¬ÈÏfalse
-		sectionsColor : ['#ccc', '#fff'],//ÎªÃ¿¸ösectionÉèÖÃbackground-colorÊôĞÔ
-		paddingTop: '3em',ÉèÖÃÃ¿Ò»¸ösection¶¥²¿µÄpadding,Ä¬ÈÏÎª0
-		paddingBottom: '10px',ÉèÖÃÃ¿Ò»¸ösectionµ×²¿µÄpadding,Ä¬ÈÏÎª0
-		fixedElements: '#header, .footer',¹Ì¶¨ÔªËØ£¬Ä¬ÈÏÎªnull,ĞèÒªÅäÖÃÒ»¸öjqueryÑ¡ÔñÆ÷£¬ÔÚÒ³Ãæ¹ö¶¯Ê±£¬fixElementsÉèÖÃµÄÔªËØ²»¹ö¶¯
+		controlArrows: true,//å®šä¹‰æ˜¯å¦é€šè¿‡ç®­å¤´æ¥æ§åˆ¶slide,é»˜è®¤true
+		verticalCentered: true,//å®šä¹‰æ¯ä¸€é¡µçš„å†…å®¹æ˜¯å¦å‚ç›´å±…ä¸­ï¼Œé»˜è®¤true
+		resize : false,//å­—ä½“æ˜¯å¦éšçª—å£ç¼©æ”¾è€Œç¼©æ”¾ï¼Œé»˜è®¤false
+		sectionsColor : ['#ccc', '#fff'],//ä¸ºæ¯ä¸ªsectionè®¾ç½®background-colorå±æ€§
+		paddingTop: '3em',è®¾ç½®æ¯ä¸€ä¸ªsectioné¡¶éƒ¨çš„padding,é»˜è®¤ä¸º0
+		paddingBottom: '10px',è®¾ç½®æ¯ä¸€ä¸ªsectionåº•éƒ¨çš„padding,é»˜è®¤ä¸º0
+		fixedElements: '#header, .footer',å›ºå®šå…ƒç´ ï¼Œé»˜è®¤ä¸ºnull,éœ€è¦é…ç½®ä¸€ä¸ªjqueryé€‰æ‹©å™¨ï¼Œåœ¨é¡µé¢æ»šåŠ¨æ—¶ï¼ŒfixElementsè®¾ç½®çš„å…ƒç´ ä¸æ»šåŠ¨
 		responsiveWidth: 0,
 		responsiveHeight: 0,
 		 
 		//Custom selectors
-		sectionSelector: '.section',//sectionÑ¡ÔñÆ÷¡£Ä¬ÈÏÎª.section
-		slideSelector: '.slide',//slideÑ¡ÔñÆ÷£¬Ä¬ÈÏÎª.slide
+		sectionSelector: '.section',//sectioné€‰æ‹©å™¨ã€‚é»˜è®¤ä¸º.section
+		slideSelector: '.slide',//slideé€‰æ‹©å™¨ï¼Œé»˜è®¤ä¸º.slide
 		 
 		//events
 		onLeave: function(index, nextIndex, direction){},
@@ -127,93 +127,93 @@ $(document).ready(function() {
 });
 ```
 
-## ×Ô¶¨Òå¹ö¶¯Ğ§¹û¿ÉÒÔÍ¨¹ıÒÔÏÂÈıÖÖ·½Ê½ÊµÏÖ
+## è‡ªå®šä¹‰æ»šåŠ¨æ•ˆæœå¯ä»¥é€šè¿‡ä»¥ä¸‹ä¸‰ç§æ–¹å¼å®ç°
 
-fullpageÒ³Ãæ½á¹¹
+fullpageé¡µé¢ç»“æ„
 
 ```
 <div id="fullpage">
     <div class="section section1">
-        <h3>µÚÒ»ÆÁ</h3>
-        <p id="p1">fullPage.js ¡ª »Øµ÷º¯ÊıÑİÊ¾</p>
+        <h3>ç¬¬ä¸€å±</h3>
+        <p id="p1">fullPage.js â€” å›è°ƒå‡½æ•°æ¼”ç¤º</p>
     </div>
     <div class="section section2">
-        <h3>µÚ¶şÆÁ</h3>
-        <p id="p2">¹ö¶¯µ½µÚ¶şÆÁºóµÄ»Øµ÷º¯ÊıÖ´ĞĞµÄĞ§¹û</p>
+        <h3>ç¬¬äºŒå±</h3>
+        <p id="p2">æ»šåŠ¨åˆ°ç¬¬äºŒå±åçš„å›è°ƒå‡½æ•°æ‰§è¡Œçš„æ•ˆæœ</p>
     </div>
     <div class="section section3">
-        <h3>µÚÈıÆÁ</h3>
-        <p id="p3">¹ö¶¯µ½µÚÈıÆÁºóµÄ»Øµ÷º¯ÊıÖ´ĞĞµÄĞ§¹û</p>
+        <h3>ç¬¬ä¸‰å±</h3>
+        <p id="p3">æ»šåŠ¨åˆ°ç¬¬ä¸‰å±åçš„å›è°ƒå‡½æ•°æ‰§è¡Œçš„æ•ˆæœ</p>
     </div>
     <div class="section section4">
-        <h3>µÚËÄÆÁ</h3>
-        <p id="p4">¹ö¶¯µ½µÚËÄÆÁºóµÄ»Øµ÷º¯ÊıÖ´ĞĞµÄĞ§¹û</p>
+        <h3>ç¬¬å››å±</h3>
+        <p id="p4">æ»šåŠ¨åˆ°ç¬¬å››å±åçš„å›è°ƒå‡½æ•°æ‰§è¡Œçš„æ•ˆæœ</p>
     </div>
 </div>
 ```
 
-1.ÒıÈëjquery.easing.min.js  ÊµÏÖ¶¯»­Ğ§¹û
+### 1.å¼•å…¥jquery.easing.min.js  å®ç°åŠ¨ç”»æ•ˆæœ
 
 ```
-$(function(){
-            $('#fullpage').fullpage({
-                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
-                anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
-                //¹ö¶¯µ½×îµ×²¿ºóÊÇ·ñ¹ö»Ø¶¥²¿
-                loopBottom: true,
-                // ÊÇ·ñÏÔÊ¾ÏîÄ¿µ¼º½
-                navigation: true,
-               
-                afterLoad: function(anchorLink, index){
-                 if(index == 2){
-                 $('.section2').find('p').delay(500).animate({
-                 left: '0'
-                 }, 1500, 'easeOutExpo');
-                 }
-                 if(index == 3){
-                 $('.section3').find('p').delay(500).animate({
-                 bottom: '0'
-                 }, 1500, 'easeOutExpo');
-                 }
-                 if(index == 4){
-                 $('.section4').find('p').fadeIn(2000);
-                 }
-                 },
-                 onLeave: function(index, direction){
-                 if(index == '2'){
-                 $('.section2').find('p').delay(500).animate({
-                 left: '-120%'
-                 }, 1500, 'easeOutExpo');
-                 }
-                 if(index == '3'){
-                 $('.section3').find('p').delay(500).animate({
-                 bottom: '-120%'
-                 }, 1500, 'easeOutExpo');
-                 }
-                 if(index == '4'){
-                 $('.section4').find('p').fadeOut(2000);
-                 }
-                 }
-            });
+$(function () {
+        $('#fullpage').fullpage({
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+            anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+            //æ»šåŠ¨åˆ°æœ€åº•éƒ¨åæ˜¯å¦æ»šå›é¡¶éƒ¨
+            loopBottom: true,
+            // æ˜¯å¦æ˜¾ç¤ºé¡¹ç›®å¯¼èˆª
+            navigation: true,
+
+            afterLoad: function (anchorLink, index) {
+                if (index == 2) {
+                    $('.section2').find('p').delay(500).animate({
+                        left: '0'
+                    }, 1500, 'easeOutExpo');
+                }
+                if (index == 3) {
+                    $('.section3').find('p').delay(500).animate({
+                        bottom: '0'
+                    }, 1500, 'easeOutExpo');
+                }
+                if (index == 4) {
+                    $('.section4').find('p').fadeIn(2000);
+                }
+            },
+            onLeave: function (index, direction) {
+                if (index == '2') {
+                    $('.section2').find('p').delay(500).animate({
+                        left: '-120%'
+                    }, 1500, 'easeOutExpo');
+                }
+                if (index == '3') {
+                    $('.section3').find('p').delay(500).animate({
+                        bottom: '-120%'
+                    }, 1500, 'easeOutExpo');
+                }
+                if (index == '4') {
+                    $('.section4').find('p').fadeOut(2000);
+                }
+            }
         });
+    });
 ```
 
-2.ÒıÈëanimate.css 
+### 2.å¼•å…¥animate.css 
 
 ```
 $(function(){
             $('#fullpage').fullpage({
                 sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
                 anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
-                //¹ö¶¯µ½×îµ×²¿ºóÊÇ·ñ¹ö»Ø¶¥²¿
+                //æ»šåŠ¨åˆ°æœ€åº•éƒ¨åæ˜¯å¦æ»šå›é¡¶éƒ¨
                 loopBottom: true,
-                // ÊÇ·ñÏÔÊ¾ÏîÄ¿µ¼º½
+                // æ˜¯å¦æ˜¾ç¤ºé¡¹ç›®å¯¼èˆª
                 navigation: true,
 
-                //¹ö¶¯µ½Ä³Ò»ÆÁºóµÄ»Øµ÷º¯Êı£¬½ÓÊÕ anchorLink ºÍ index Á½¸ö²ÎÊı£¬anchorLink ÊÇÃªÁ´½ÓµÄÃû³Æ£¬index ÊÇĞòºÅ£¬´Ó1¿ªÊ¼¼ÆËã
+                //æ»šåŠ¨åˆ°æŸä¸€å±åçš„å›è°ƒå‡½æ•°ï¼Œæ¥æ”¶ anchorLink å’Œ index ä¸¤ä¸ªå‚æ•°ï¼ŒanchorLink æ˜¯é”šé“¾æ¥çš„åç§°ï¼Œindex æ˜¯åºå·ï¼Œä»1å¼€å§‹è®¡ç®—
                 afterLoad: function (anchorLink, index) {
                     if (index == 1) {
-                        // ÏòIDÎªP1µÄÔªËØÌí¼Óclass£¬animatedÊÇanimate.css¼¤»î¶¯»­±ØĞë¼ÓµÄclass,ºóÃæ¸úµÄÊÇ¶¯»­class
+                        // å‘IDä¸ºP1çš„å…ƒç´ æ·»åŠ classï¼Œanimatedæ˜¯animate.cssæ¿€æ´»åŠ¨ç”»å¿…é¡»åŠ çš„class,åé¢è·Ÿçš„æ˜¯åŠ¨ç”»class
                         $('#p1').addClass('animated zoomIn');
                     }
                     if (index == 2) {
@@ -226,12 +226,12 @@ $(function(){
                         $('#p4').addClass('animated rotateIn');
                     }
                 },
-                //  ¹ö¶¯Ç°µÄ»Øµ÷º¯Êı£¬index ÊÇÀë¿ªµÄ¡°Ò³Ãæ¡±µÄĞòºÅ£¬´Ó1¿ªÊ¼¼ÆËã£»
-                // nextIndex ÊÇ¹ö¶¯µ½µÄ¡°Ò³Ãæ¡±µÄĞòºÅ£¬´Ó1¿ªÊ¼¼ÆËã£»
-                // direction ÅĞ¶ÏÍùÉÏ¹ö¶¯»¹ÊÇÍùÏÂ¹ö¶¯£¬ÖµÊÇ up »ò down¡£
+                //  æ»šåŠ¨å‰çš„å›è°ƒå‡½æ•°ï¼Œindex æ˜¯ç¦»å¼€çš„â€œé¡µé¢â€çš„åºå·ï¼Œä»1å¼€å§‹è®¡ç®—ï¼›
+                // nextIndex æ˜¯æ»šåŠ¨åˆ°çš„â€œé¡µé¢â€çš„åºå·ï¼Œä»1å¼€å§‹è®¡ç®—ï¼›
+                // direction åˆ¤æ–­å¾€ä¸Šæ»šåŠ¨è¿˜æ˜¯å¾€ä¸‹æ»šåŠ¨ï¼Œå€¼æ˜¯ up æˆ– downã€‚
                 /*onLeave: function (index, direction) {
                     if (index == '1') {
-                        // ÏòIDÎªP1µÄÔªËØÒÆ³ıclass
+                        // å‘IDä¸ºP1çš„å…ƒç´ ç§»é™¤class
                         $('#p1').removeClass('animated zoomIn');
                     }
                     if (index == '2') {
@@ -248,11 +248,11 @@ $(function(){
         });
 ```
 
-3.Ê¹ÓÃCSS3±àĞ´¶¯»­Ğ§¹û
+### 3.ä½¿ç”¨CSS3ç¼–å†™åŠ¨ç”»æ•ˆæœ
 
 
 
-## GitHubÖĞÎÄÎÄµµ
+## GitHubä¸­æ–‡æ–‡æ¡£
 
 https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese#fullpagejs
 
