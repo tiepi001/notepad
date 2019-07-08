@@ -23,6 +23,8 @@ load()重新加载
 
 ## 代码
 
+### 页面结构
+
 ```
 <div id="music">
     <div class="zhizhen"></div>
@@ -31,6 +33,8 @@ load()重新加载
     </div>
 </div>
 ```
+
+### CSS
 
 ```
 <style>
@@ -61,6 +65,7 @@ load()重新加载
 </style>
 ```
 
+### JS
 
 ```
 <script>
