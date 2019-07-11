@@ -109,8 +109,8 @@ DPR(devicePixelRatio)是默认缩放为100%的情况下，设备像素和CSS像�
 
 ### 常用移动设备的PPI与DPR
 
-IOS设备 |	          PPI |	    DPR
-- | -| -
+IOS设备 | PPI | DPR
+- | - | -
 iPhone4	 |        326 |	      2 |
 iPhone4s  |       326	 |      2 |
 iPhone5	 |        326 |	      2 |
