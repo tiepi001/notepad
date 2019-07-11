@@ -1,29 +1,5 @@
-# è§£å†³audioåœ¨html5ç§»åŠ¨ç«¯ä¸èƒ½è‡ªåŠ¨æ’­æ”¾ã€å¾ªç¯æ’­æ”¾é—®é¢˜
+# ½â¾öaudioÔÚhtml5ÒÆ¶¯¶Ë²»ÄÜ×Ô¶¯²¥·Å¡¢Ñ­»·²¥·ÅÎÊÌâ
 
-
-## æ€»ç»“
-
-1.å¤§éƒ¨åˆ†æ–°ç‰ˆæµè§ˆå™¨ç¦ç”¨äº†audioè‡ªåŠ¨æ’­æ”¾åŠŸèƒ½  éœ€è¦æ·»åŠ ç›‘å¬touchstartäº‹ä»¶è§¦å‘audioæ’­æ”¾
-
-2.å¼•å…¥å¾®ä¿¡APIæ¥å£
-
-3.éƒ¨åˆ†ç§»åŠ¨ç«¯æµè§ˆå™¨æ— æ³•å¾ªç¯æ’­æ”¾ ä½¿ç”¨å¦‚ä¸‹è„šæœ¬
-
-```
-audio.onended = function () {
-       audio.load();
-       audio.play();
-   }
-```
-4.jsæ§åˆ¶åª’ä½“
-play()æ’­æ”¾
-pause()æš‚åœ
-load()é‡æ–°åŠ è½½
-
-
-## ä»£ç 
-
-### é¡µé¢ç»“æ„
 
 ```
 <div id="music">
@@ -34,53 +10,52 @@ load()é‡æ–°åŠ è½½
 </div>
 ```
 
-### CSS
-
 ```
 <style>
-    #music{position: absolute; top: 2rem; right: 2rem; z-index: 99; }
-    #audioBox {width: 4rem; height: 4rem;border-radius: 50%;
-        background-color: rgba(0, 0, 0, .5); background-repeat: no-repeat; background-image: url("../images/music.png");
-        background-size: 100% 100%; }
-    .zhizhen{width: 1.2rem;height: 2rem;background-repeat: no-repeat; background-image: url("../images/music-1.png");
-        background-size: 100% 100%;position: absolute; left: 3rem; z-index: 99;}
-    @-webkit-keyframes rotation {
-        0%{transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg);}
-        18%{transform: rotate(60deg); -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -o-transform: rotate(60deg);}
-        50%{transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg);}
-        82%{transform: rotate(300deg); -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); -o-transform: rotate(300deg);}
-        100%{transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg);}
-    }
-    @keyframes rotation {
-        0%{transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg);}
-        20%{transform: rotate(60deg); -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -o-transform: rotate(60deg);}
-        50%{transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg);}
-        80%{transform: rotate(300deg); -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); -o-transform: rotate(300deg);}
-        100%{transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg);}
-    }
-    .rotation {
-        transform: rotate(360deg);-webkit-transform: rotate(360deg); -moz-transform: rotate(360deg);-o-transform: rotate(360deg);
-        animation: rotation 3s linear infinite; -moz-animation: rotation 3s linear infinite;
-        -webkit-animation: rotation 3s linear infinite; -o-animation: rotation 3s linear infinite; }
+#music{position: absolute; top: 2rem; right: 2rem; z-index: 99; }
+#audioBox {width: 4rem; height: 4rem;border-radius: 50%;
+    background-color: rgba(0, 0, 0, .5); background-repeat: no-repeat; background-image: url("../images/music.png");
+    background-size: 100% 100%; }
+.zhizhen{width: 1.2rem;height: 2rem;background-repeat: no-repeat; background-image: url("../images/music-1.png");
+    background-size: 100% 100%;position: absolute; left: 3rem; z-index: 99;}
+@-webkit-keyframes rotation {
+    0%{transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg);}
+    18%{transform: rotate(60deg); -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -o-transform: rotate(60deg);}
+    50%{transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg);}
+    82%{transform: rotate(300deg); -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); -o-transform: rotate(300deg);}
+    100%{transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg);}
+}
+@keyframes rotation {
+    0%{transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg);}
+    20%{transform: rotate(60deg); -webkit-transform: rotate(60deg); -moz-transform: rotate(60deg); -o-transform: rotate(60deg);}
+    50%{transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg);}
+    80%{transform: rotate(300deg); -webkit-transform: rotate(300deg); -moz-transform: rotate(300deg); -o-transform: rotate(300deg);}
+    100%{transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg);}
+}
+.rotation {
+    transform: rotate(360deg);-webkit-transform: rotate(360deg); -moz-transform: rotate(360deg);-o-transform: rotate(360deg);
+    animation: rotation 3s linear infinite; -moz-animation: rotation 3s linear infinite;
+    -webkit-animation: rotation 3s linear infinite; -o-animation: rotation 3s linear infinite; }
 </style>
 ```
 
-### JS
 
 ```
 <script>
     $(window).load(function () {
+//      document.getElementById('audio').muted=true;   //¾²ÒôÉèÖÃ   ¾²Òôtrue  ¿ªÆôfalse
+
         var $music = $('#music');
         var $forbid = $music.find('#audioBox');
         var audio = document.getElementById('audio');
 
-//      å¤§å¤šæ–°ç‰ˆæœ¬æµè§ˆå™¨ä¸æ”¯æŒaudioè‡ªåŠ¨æ’­æ”¾ åœ¨æ­¤å¢åŠ addEventListeneräº¤äº’äº‹ä»¶è§¦å‘æ’­æ”¾
-//      touchstarté‡å¤æ‰§è¡Œå½±å“éŸ³ä¹æ’­æ”¾  {once: true}æ§åˆ¶åªæ‰§è¡Œä¸€æ¬¡
+//      ´ó¶àĞÂ°æ±¾ä¯ÀÀÆ÷²»Ö§³Öaudio×Ô¶¯²¥·Å ÔÚ´ËÔö¼ÓaddEventListener½»»¥ÊÂ¼ş´¥·¢²¥·Å
+//      touchstartÖØ¸´Ö´ĞĞÓ°ÏìÒôÀÖ²¥·Å  {once: true}¿ØÖÆÖ»Ö´ĞĞÒ»´Î
         function audioAutoPlay(audio) {
             document.addEventListener('touchstart', function () {
                 audio.play();
             }, {once: true});
-//      å¼•å…¥å¾®ä¿¡APIæ¥å£
+//      ÒıÈëÎ¢ĞÅAPI½Ó¿Ú
             document.addEventListener("WeixinJSBridgeReady", function () {
                 audio.play();
             }, false);
@@ -102,7 +77,7 @@ load()é‡æ–°åŠ è½½
             }
             audio.pause();
         });
-//      è§£å†³iOSä¸èƒ½å¾ªç¯æ’­æ”¾é—®é¢˜
+//      ½â¾öiOS²»ÄÜÑ­»·²¥·ÅÎÊÌâ
         audio.onended = function () {
             audio.load();
             audio.play();
@@ -112,3 +87,27 @@ load()é‡æ–°åŠ è½½
 
 ```
 
+> ¹È¸èä¯ÀÀÆ÷addEventListener¼àÌıÊÂ¼ş`audio.play();`µÄÊ±ºò»á±¨´í£¬Í¨¹ıÒÔÏÂ·½Ê½½â¾ö<br/>
+
+ÔÚchrome ä¯ÀÀÆ÷ÖĞÊäÈë£ºchrome://flags£¬ËÑË÷¡°Autoplay policy¡±£¬Ä¬ÈÏÎª¡°Default¡±£¬ĞŞ¸ÄÎª ¡°No user gesture is required¡± ¾Í¿ÉÒÔÁË£»´Ë·½·¨½öÏŞ¹È¸èä¯ÀÀÆ÷£¬¶øÇÒ±È½Ï±¿×¾£¬µ«ÊÇÎÊÌâ¿ÉÒÔ½â¾ö£»
+
+
+
+## ×Ü½á
+
+1.´ó²¿·ÖĞÂ°æä¯ÀÀÆ÷½ûÓÃÁËaudio×Ô¶¯²¥·Å¹¦ÄÜ  ĞèÒªÌí¼Ó¼àÌıtouchstartÊÂ¼ş´¥·¢audio²¥·Å
+
+2.ÒıÈëÎ¢ĞÅAPI½Ó¿Ú
+
+3.²¿·ÖÒÆ¶¯¶Ëä¯ÀÀÆ÷ÎŞ·¨Ñ­»·²¥·Å Ê¹ÓÃÈçÏÂ½Å±¾
+
+```
+audio.onended = function () {
+       audio.load();
+       audio.play();
+   }
+```
+4.js¿ØÖÆÃ½Ìå
+play()²¥·Å
+pause()ÔİÍ£
+load()ÖØĞÂ¼ÓÔØ
