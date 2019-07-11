@@ -110,53 +110,33 @@ DPR(devicePixelRatio)是默认缩放为100%的情况下，设备像素和CSS像�
 ### 常用移动设备的PPI与DPR
 
 IOS设备 |	          PPI |	    DPR
-
 - | -| -
-
 iPhone4	 |        326 |	      2 |
-
 iPhone4s  |       326	 |      2 |
-
 iPhone5	 |        326 |	      2 |
-
 iPhone5s   |      326	 |      2 |
-
 iPhone6	  |       326	 |      2 |
-
 iPhone6s  |     	326  |     	2 |
-
 iPhone6 PLUS  |  	441 |	      3 |
-
 iPhone6s PLUS	 |  441	 |      3 |
-
 iPad - |	        -	 |      2 |
-
 iPad - |	        -	  |     3 |
-
-
 android	 |   尺寸	 |       dpr |
-
 低清设备 |   － |	       1 |
-
 -	    |      － |	       1.5 |
-
 -	  |     －	 |       1.75 |
-
 -	  |        － |	       2 |
-
 mx2 |	     800*1280 |    2.5 |
-
 小米note  |  720*1280  |   2.75 |
-
 -	 |         - |	        3 |
-
 三星note4 |  -	 |       4 |
 
 
 
 
 
-name | 111 | 222 | 333 | 444
-:-: | :-: | :-: | :-: | :-:
-aaa | bbb | ccc | ddd | eee| 
-fff | ggg| hhh | iii | 000|
+name | 价格 |  数量  
+-|-|-
+香蕉 | $1 | 5 |
+苹果 | $1 | 6 |
+草莓 | $1 | 7 |
