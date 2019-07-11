@@ -113,44 +113,44 @@ IOS设备 |	          PPI |	    DPR
 
 - | -| -
 
-iPhone4	 |        326 |	      2
+iPhone4	 |        326 |	      2 |
 
-iPhone4s  |       326	 |      2
+iPhone4s  |       326	 |      2 |
 
-iPhone5	 |        326 |	      2
+iPhone5	 |        326 |	      2 |
 
-iPhone5s   |      326	 |      2
+iPhone5s   |      326	 |      2 |
 
-iPhone6	  |       326	 |      2
+iPhone6	  |       326	 |      2 |
 
-iPhone6s  |     	326  |     	2
+iPhone6s  |     	326  |     	2 |
 
-iPhone6 PLUS  |  	441 |	      3
+iPhone6 PLUS  |  	441 |	      3 |
 
-iPhone6s PLUS	 |  441	 |      3
+iPhone6s PLUS	 |  441	 |      3 |
 
-iPad - |	        -	 |      2
+iPad - |	        -	 |      2 |
 
-iPad - |	        -	  | |     3
+iPad - |	        -	  |     3 |
 
 
-android	 |   尺寸	 |       dpr
+android	 |   尺寸	 |       dpr |
 
-低清设备 |   － |	       1
+低清设备 |   － |	       1 |
 
--	    |      － |	       1.5
+-	    |      － |	       1.5 |
 
--	  |     －	 |       1.75
+-	  |     －	 |       1.75 |
 
--	  |        － |	       2
+-	  |        － |	       2 |
 
-mx2 |	     800*1280 |    2.5
+mx2 |	     800*1280 |    2.5 |
 
-小米note  |  720*1280  |   2.75
+小米note  |  720*1280  |   2.75 |
 
--	 |         - |	        3
+-	 |         - |	        3 |
 
-三星note4 |  -	 |       4
+三星note4 |  -	 |       4 |
 
 
 
