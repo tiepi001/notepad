@@ -1,8 +1,7 @@
 # 去掉input等点击出现的边框
 
-## 添加属性 :focus{outline:none} 就可以去掉默认点击时，边框会出现的蓝色边框。
-
--**提示：**接收键盘事件或其他用户输入的元素都允许 :focus 选择器。
+> 添加属性 :focus{outline:none} 就可以去掉默认点击时，边框会出现的蓝色边框。
+提示：接收键盘事件或其他用户输入的元素都允许 :focus 选择器。
 
 ```
 input,textarea,select,a,button:focus {
